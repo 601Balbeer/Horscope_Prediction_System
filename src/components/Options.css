@@ -1,0 +1,35 @@
+.option {
+    color: #107bb4;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+ 
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+  }
+  
+  button {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: #ccc;
+    color: #0d0d91;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  .h1 {
+    color: white;
+  }
+  
+  

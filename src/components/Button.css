@@ -1,0 +1,116 @@
+:root{
+    --primary: #fff
+}
+
+.btn {
+    padding: 10px 24px;
+    border-radius: 25px;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.bt--primary {
+    background-color: #1cd6eb;
+    color: #1a1a2e;
+}
+
+.bt--outline {
+    background-color: transparent;
+    color: #1cd6eb;
+    border: 2px solid #1cd6eb;
+}
+
+.btn:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 5px 15px rgba(28, 214, 235, 0.4);
+}
+
+.bt--primary:hover {
+    background-color: #fff;
+    color: #1a1a2e;
+}
+
+.bt--outline:hover {
+    background-color: #1cd6eb;
+    color: #1a1a2e;
+}
+
+
+/* CSS */
+.page{
+  height: 170vh;
+  text-align: center;
+}
+.grid{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 50px;
+    padding: 10px;
+}
+
+.button-56 {
+  background-color: #1cd6eb;
+  border: 2px solid #111;
+  border-radius: 8px;
+  box-sizing: border-box;
+  color: #111;
+  cursor: pointer;
+  
+  padding: 10px;
+  font-family: Inter,sans-serif;
+  font-size: 20px;
+  height: 48px;
+  
+  line-height: 24px;
+  margin: 10px;
+  
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+}
+
+.button-56:after {
+  background-color: wheat;
+  border-radius: 8px;
+  content: "";
+  display: block;
+  height: 48px;
+  left: 0;
+  width: 100%;
+  position: absolute;
+  top: -2px;
+  transform: translate(8px, 8px);
+  transition: transform .2s ease-out;
+  z-index: -1;
+}
+
+.button-56:hover:after {
+  transform: translate(0, 0);
+}
+
+.button-56:active {
+  background-color: #ffdeda;
+  outline: 0;
+}
+
+.button-56:hover {
+  outline: 0;
+}
+
+@media (min-width: 768px) {
+  .button-56 {
+    padding: 0 40px;
+  }
+}
+
+.sign{
+    color: rgb(230, 97, 15);
+}
+
+

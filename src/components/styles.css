@@ -1,0 +1,27 @@
+.button-style{
+    padding: 12px 26px;
+    font-size: 20px;
+}
+
+.button-outline{
+    background-color: transparent;
+    color: #fff;
+    padding: 11px 20px;
+    border: 1px solid var(--primary);
+    transition: all 0.3s ease-out;
+    text-decoration: none;
+}
+
+.button-style:hover{
+    background: #fff;
+    color: #242424;
+    transition: all 0.3s ease-out;
+}
+
+.text-style{
+    margin-top: 8px;
+    color: #fff;
+    font-size: 32px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande',
+      'Lucida Sans', Arial, sans-serif;
+}

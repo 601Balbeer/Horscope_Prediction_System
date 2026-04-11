@@ -1,0 +1,92 @@
+.SignupPage {
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+  }
+  
+  .form-container {
+    background-color: rgba(16, 16, 16, 0.85);
+    padding: 40px;
+    border-radius: 20px;
+    box-shadow: 0 0 15px rgba(28, 214, 235, 0.2);
+    width: 400px;
+    border: 1px solid rgba(28, 214, 235, 0.3);
+  }
+  
+  .signup-form label {
+    font-weight: bold;
+    color: rgb(14, 1, 1);
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .signup-form input {
+    background-color: #ccc2c2;
+    color: rgb(17, 6, 6);
+    border: none;
+    border-radius: 0;
+    padding: 12px;
+    font-size: 14px;
+    margin-bottom: 25px;
+    clear: both;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .signup-form input::placeholder {
+    color: #8a8a8a;
+  }
+  
+  .signup-form .text-muted {
+    color: #8a8a8a;
+    font-size: 12px;
+    margin-bottom: 20px;
+    display: block;
+  }
+  
+  .signup-form button {
+    background-color: #00c70d;
+    color: #fff;
+    border: none;
+    border-radius: 2px;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+    margin-top: 20px;
+    cursor: pointer;
+    margin-top: 20px;
+    width: 60%;
+  }
+  
+  .signup-form button:hover {
+    background-color: #00e70f;
+    color: #fff;
+  }
+  
+  /* SignupForm.css */
+  .signup-form button {
+    /* existing styles */
+    margin-top: 20px;
+    width:100%; /* this will make the button width 100% of the parent container width */
+    display: flex;
+    justify-content: center;
+    text-align: center;
+  }
+
+    .signup-form h2 {
+    text-align: center;
+    font-size: 1.5em;
+    }
+    .SignUp{
+    color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    }
